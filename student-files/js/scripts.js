@@ -170,7 +170,7 @@ function modalSetup(data){
         if (currentCount + 1 < profiles.length){
             currentCount ++;
         } else {
-            currentCount == 0;
+            currentCount = 0;
         }
 
         modalContainer.remove();
